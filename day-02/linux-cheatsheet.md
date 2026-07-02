@@ -30,3 +30,13 @@ df -h – disk space usage. df -h
 du -sh – size of a folder. du -sh /var/log
 history – show command history. history
 alias – shortcut for a command. alias ll='ls -la'
+wget – download file from URL. wget http://example.com/file
+curl – transfer data from/to a server. curl -I http://example.com
+ssh – connect to remote machine. ssh user@host
+scp – copy files over ssh. scp file.txt user@host:/path
+tar – archive files. tar -cvf archive.tar folder/
+unzip – extract zip file. unzip file.zip
+whoami – current username. whoami
+id – show user/group IDs. id
+uname -a – system info. uname -a
+crontab -e – edit scheduled jobs. crontab -e
