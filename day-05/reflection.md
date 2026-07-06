@@ -1,0 +1,3 @@
+# Day 5 – Reflection
+
+Few-shot clearly beat zero-shot on tasks that needed a specific output structure — like extracting fields into a consistent format or matching an exact label convention (e.g. "False Positive" vs "Real Threat"). The examples acted as a template the model could copy, which removed ambiguity about how to format the answer. It mattered less for simple, well-known classifications where zero-shot already had enough general knowledge to get it right — like basic severity judgments or common phishing/ransomware explanations. So the real value of few-shot isn't necessarily making the model "smarter," it's making its output more predictable and consistent, which matters a lot when the output feeds into a structured process like a ticketing system or report.
