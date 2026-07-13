@@ -1,0 +1,48 @@
+[
+  {
+    "name": "get_weather",
+    "description": "Get the current weather for a given city.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "Name of the city to get weather for, e.g. 'Mumbai'"
+        }
+      },
+      "required": ["city"]
+    }
+  },
+  {
+    "name": "search_logs",
+    "description": "Search security logs for entries matching a query within an optional time range.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search term or pattern to look for in the logs, e.g. 'failed login'"
+        },
+        "time_range": {
+          "type": "string",
+          "description": "Time window to search within, e.g. 'last_24h', 'last_7d'"
+        }
+      },
+      "required": ["query"]
+    }
+  },
+  {
+    "name": "check_ip_reputation",
+    "description": "Check whether a given IP address has a known bad reputation (malware, spam, botnet activity).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "The IP address to check, e.g. '203.0.113.5'"
+        }
+      },
+      "required": ["ip"]
+    }
+  }
+]
