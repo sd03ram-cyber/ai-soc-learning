@@ -1,0 +1,3 @@
+# Day 13 – Reflection
+
+Context management matters far more for agents than for one-off prompts because an agent is expected to operate continuously across many steps and a long time horizon, not just answer a single question. A one-off prompt only ever needs enough context for that single exchange, so running out of window rarely matters. An agent working a full shift's worth of alerts, however, depends on remembering earlier decisions to stay consistent — without deliberate memory management, it will eventually lose track of what's already been triaged, contradict earlier verdicts, or repeat investigative steps it already completed, which quietly breaks the reliability the entire loop depends on.
