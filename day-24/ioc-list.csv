@@ -1,0 +1,16 @@
+ioc_type,ioc_value,threat_actor,malware_family,confidence,date_reported,source
+IP,203.0.113.5,Wizard Spider,Emotet,98,2026-07-20,CISA AA26-201
+IP,192.0.2.10,Wizard Spider,Emotet,95,2026-07-20,CISA AA26-201
+Domain,malware-beacon.com,Wizard Spider,Emotet,99,2026-07-20,CISA AA26-201
+Domain,C2-command.net,Wizard Spider,Emotet,97,2026-07-20,CISA AA26-201
+URL,hxxp://malware-beacon.com/cmd?id=12345,Wizard Spider,Emotet,99,2026-07-20,CISA AA26-201
+File Hash MD5,d41d8cd98f00b204e9800998ecf8427e,Wizard Spider,Emotet,96,2026-07-20,CISA AA26-201
+File Hash SHA256,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,Wizard Spider,Emotet,96,2026-07-20,CISA AA26-201
+Email,attacker@compromised-domain.com,Wizard Spider,Emotet,92,2026-07-20,CISA AA26-201
+Registry Key,HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Run\svchost_fake,Wizard Spider,Emotet,94,2026-07-20,CISA AA26-201
+IP,198.51.100.50,Turla,Cobra Spike,91,2026-07-19,CISA AA26-200
+Domain,turla-infrastructure.ru,Turla,Cobra Spike,93,2026-07-19,CISA AA26-200
+File Hash SHA1,356a192b7913b04c54574d18c28d46e6395428ab,Turla,Cobra Spike,90,2026-07-19,CISA AA26-200
+IP,151.101.1.1,APT28,Sofacy,87,2026-07-18,FBI Flash FY26-052
+Domain,sofacy-c2.biz,APT28,Sofacy,89,2026-07-18,FBI Flash FY26-052
+Mutex,Global\{7D4A1234-5678-90AB-CDEF-1234567890AB},APT28,Sofacy,85,2026-07-18,FBI Flash FY26-052
